@@ -14,7 +14,7 @@ export function Benefits() {
           <Divider className="hidden lg:block" />
           <Stat value="500mAh" label="Bateria" />
           <Divider className="hidden lg:block" />
-          <Stat value="1K Hz" label="Polling Rate" />
+          <Stat value="1K Hz" label="Taxa de resposta" />
         </div>
       </div>
     </section>

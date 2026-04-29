@@ -108,7 +108,7 @@ export function Hero() {
         style={{ maxWidth: 300 }}
       >
         <p className="text-[11px] text-muted-foreground/35 font-light tracking-wide leading-relaxed">
-          Precisão absoluta. Sem fio. Sem limites.
+          Precisão sem fio para cada movimento.
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-3 w-full">
           <Button
@@ -123,7 +123,7 @@ export function Hero() {
             className="w-full sm:w-auto text-muted-foreground/38 hover:text-foreground/70 font-light px-8 h-12 text-sm rounded-full transition-all duration-500 hover:bg-white/[0.03]"
             asChild
           >
-            <a href="#especificacoes">Specs →</a>
+            <a href="#especificacoes">Especificações →</a>
           </Button>
         </div>
       </div>

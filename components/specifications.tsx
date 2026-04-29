@@ -2,7 +2,7 @@ const specs = [
   { label: "Conexão", value: "USB-C / 2.4 GHz Wireless / Bluetooth 5.0" },
   { label: "Sensor", value: "Óptico de alta precisão" },
   { label: "DPI", value: "Até 26.000 DPI" },
-  { label: "Polling Rate", value: "1000 Hz (1 ms)" },
+  { label: "Taxa de resposta", value: "1000 Hz (1 ms)" },
   { label: "Bateria", value: "500 mAh recarregável" },
   { label: "Peso", value: "Aprox. 58 g" },
   { label: "Switches", value: "Huano 80M cliques" },

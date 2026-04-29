@@ -267,10 +267,10 @@ export function ColorVariants() {
           {/* Selected info */}
           <div className="flex-1 min-w-0 px-4 hidden sm:block">
             <p className="text-sm font-light text-foreground/75 truncate">
+              <span className="text-muted-foreground/35 text-xs mr-2">Cor selecionada:</span>
               {active.name}
-              <span className="text-muted-foreground/35 ml-2 text-xs">
-                {active.subtitle}
-              </span>
+              <span className="text-muted-foreground/35 mx-1.5 text-xs">—</span>
+              <span className="text-muted-foreground/35 text-xs">{active.subtitle}</span>
             </p>
           </div>
 
@@ -286,7 +286,7 @@ export function ColorVariants() {
                 "background 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease",
             }}
           >
-            Adicionar ao carrinho
+            Comprar AXION V3 PRO
           </button>
         </div>
       </div>

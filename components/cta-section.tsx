@@ -47,7 +47,7 @@ export function CTASection() {
             Pronto para elevar
             <br />
             sua{" "}
-            <span className="text-primary font-light">performance</span>?
+            <span className="text-primary font-light">precisão</span>?
           </h2>
 
           <p className="text-base text-muted-foreground/40 font-light max-w-sm mx-auto leading-relaxed">

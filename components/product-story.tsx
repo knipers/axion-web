@@ -64,9 +64,7 @@ export function ProductStory() {
         <div className="mt-16 sm:mt-20 lg:mt-24 flex flex-col sm:flex-row sm:items-end gap-6 sm:gap-16">
           <div className="w-12 h-px bg-primary/30 flex-shrink-0 mt-1" />
           <p className="text-base text-muted-foreground/38 font-light leading-relaxed max-w-[22rem]">
-            Projetado para performance.
-            <br />
-            Construído para durar.
+            Projetado para resposta rápida, controle absoluto e consistência em cada partida.
           </p>
         </div>
 
