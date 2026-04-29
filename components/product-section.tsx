@@ -8,7 +8,7 @@ const features = [
     description:
       "Sensor óptico de última geração com rastreamento perfeito em qualquer superfície. Zero aceleração, zero filtros — apenas movimento puro.",
     stat: { value: "26K DPI", label: "Resolução máxima" },
-    image: "/images/mouse-hero-crop.jpg",
+    image: "/images/mouse-hero-crop.png",
     imageAlt: "AXION V3 PRO — detalhe do sensor",
     reverse: true,
   },
@@ -18,7 +18,7 @@ const features = [
     description:
       "USB-C com fio, 2.4 GHz sem fio de baixa latência ou Bluetooth 5.0. Conecte-se do jeito que preferir, quando quiser.",
     stat: { value: "1ms", label: "Latência mínima" },
-    image: "/images/mouse-hero.jpg",
+    image: "/images/mouse-hero.png",
     imageAlt: "AXION V3 PRO — conectividade",
     reverse: false,
   },
