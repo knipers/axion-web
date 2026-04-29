@@ -28,7 +28,7 @@ export function CTASection() {
             }}
           />
           <Image
-            src="/images/mouse-hero.png"
+            src="/images/mouse-hero.webp"
             alt="AXION V3 PRO"
             fill
             className="object-contain transition-transform duration-700 group-hover:scale-[1.05]"

@@ -65,7 +65,7 @@ export function Hero() {
         />
 
         <Image
-          src="/images/mouse-hero-dramatic.png"
+          src="/images/mouse-hero-dramatic.webp"
           alt="AXION V3 PRO Gaming Mouse"
           fill
           className="object-contain"
