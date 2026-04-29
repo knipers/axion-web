@@ -1,0 +1,29 @@
+components/hero.tsx
+  37365a6f4e84a557 26,38,42,48-49,53,68,74-78,87,108-109,111-136,140,142,153-172
+components/product-section.tsx
+  37365a6f4e84a557 11,21
+components/cta-section.tsx
+  37365a6f4e84a557 31
+components/color-variants.tsx
+  37365a6f4e84a557 11,26,41,56,123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "4416a64651d791ecadaeb317bbf021f590eee5d9",
+  "prompts": {
+    "37365a6f4e84a557": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6a652a02-88d8-432a-b285-04a4a9efdd3c",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "mknipers_meli",
+      "messages": [],
+      "total_additions": 84,
+      "total_deletions": 39,
+      "accepted_lines": 73,
+      "overriden_lines": 0
+    }
+  }
+}
