@@ -1,0 +1,69 @@
+app/page.tsx
+  37365a6f4e84a557 1-25
+components.json
+  37365a6f4e84a557 1-21
+components/color-variants.tsx
+  37365a6f4e84a557 1-213
+components/hero.tsx
+  37365a6f4e84a557 1-91
+components/ui/button.tsx
+  37365a6f4e84a557 1-60
+tsconfig.json
+  37365a6f4e84a557 1-41
+next.config.mjs
+  37365a6f4e84a557 1-11
+components/product-section.tsx
+  37365a6f4e84a557 1-112
+public/icon.svg
+  37365a6f4e84a557 1-26
+public/placeholder.svg
+  37365a6f4e84a557 1
+components/cta-section.tsx
+  37365a6f4e84a557 1-73
+components/product-story.tsx
+  37365a6f4e84a557 1-70
+next-env.d.ts
+  37365a6f4e84a557 1-6
+.gitignore
+  37365a6f4e84a557 1-7
+components/specifications.tsx
+  37365a6f4e84a557 1-49
+lib/utils.ts
+  37365a6f4e84a557 1-6
+components/footer.tsx
+  37365a6f4e84a557 1-32
+public/placeholder-logo.svg
+  37365a6f4e84a557 1
+postcss.config.mjs
+  37365a6f4e84a557 1-8
+app/globals.css
+  37365a6f4e84a557 1-87
+package.json
+  37365a6f4e84a557 1-31
+app/layout.tsx
+  37365a6f4e84a557 1-32
+components/benefits.tsx
+  37365a6f4e84a557 1-43
+components/header.tsx
+  37365a6f4e84a557 1-98
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "f48d03af6f7c5eda3feee05f63bbf16d0e506c82",
+  "prompts": {
+    "37365a6f4e84a557": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6a652a02-88d8-432a-b285-04a4a9efdd3c",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "mknipers_meli",
+      "messages": [],
+      "total_additions": 1145,
+      "total_deletions": 0,
+      "accepted_lines": 1145,
+      "overriden_lines": 0
+    }
+  }
+}
