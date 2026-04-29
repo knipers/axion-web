@@ -1,0 +1,23 @@
+components/hero.tsx
+  37365a6f4e84a557 6-7,10,12,29-31,33,35,39-40,56,79-81,83-84,86-89,91-93,95-153,155-193,197-201,203-236
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "f53c099953925c00013e97bb73b87561fa8987bf",
+  "prompts": {
+    "37365a6f4e84a557": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6a652a02-88d8-432a-b285-04a4a9efdd3c",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "mknipers_meli",
+      "messages": [],
+      "total_additions": 162,
+      "total_deletions": 97,
+      "accepted_lines": 162,
+      "overriden_lines": 0
+    }
+  }
+}
