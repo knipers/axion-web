@@ -1,69 +1,75 @@
-import Image from "next/image"
-
 export function ProductStory() {
   return (
-    <section className="py-28 sm:py-36 lg:py-44 relative overflow-hidden">
-      {/* Ambient glow — right side */}
+    <section className="relative overflow-hidden py-32 sm:py-44 lg:py-56">
+
+      {/* Faint glow — bleeds in from the left */}
       <div
-        className="absolute top-1/2 right-0 -translate-y-1/2 pointer-events-none"
+        className="absolute pointer-events-none"
         style={{
-          width: "min(700px, 80vw)",
-          height: "min(700px, 80vw)",
+          top: "50%",
+          left: "-8%",
+          transform: "translateY(-50%)",
+          width: "min(860px, 80vw)",
+          height: "min(860px, 80vw)",
           background:
-            "radial-gradient(circle at right center, rgba(45,107,255,0.09) 0%, transparent 65%)",
+            "radial-gradient(circle, rgba(45,107,255,0.07) 0%, transparent 60%)",
         }}
       />
 
+      {/* Barely-visible watermark */}
+      <div
+        className="absolute inset-0 flex items-center justify-end pr-4 sm:pr-10 pointer-events-none select-none overflow-hidden"
+        aria-hidden
+      >
+        <span
+          className="font-extralight leading-none"
+          style={{
+            fontSize: "clamp(12rem, 28vw, 26rem)",
+            color: "rgba(255,255,255,0.013)",
+            letterSpacing: "0.08em",
+          }}
+        >
+          AXION
+        </span>
+      </div>
+
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-0 items-center">
 
-          {/* Left: Brand statement */}
-          <div className="space-y-10 lg:pr-20">
-            <h2
-              className="font-extralight text-foreground leading-[0.9] tracking-tight"
-              style={{ fontSize: "clamp(3.25rem, 7.5vw, 6.5rem)" }}
-            >
-              Cada<br />
-              movimento<br />
-              <span className="text-primary font-light">importa.</span>
-            </h2>
-
-            <div className="space-y-5 max-w-xs">
-              <p className="text-base text-muted-foreground/50 font-light leading-relaxed">
-                Projetado para quem não aceita menos que perfeito. Cada
-                componente escolhido para elevar sua performance.
-              </p>
-              <div className="flex items-center gap-4 pt-1">
-                <div className="w-10 h-px bg-primary/40" />
-                <span className="text-[10px] text-primary/55 tracking-[0.35em] uppercase">
-                  AXION V3 PRO
-                </span>
-              </div>
-            </div>
-          </div>
-
-          {/* Right: Side-view product */}
-          <div className="relative lg:pl-8">
-            <div
-              className="absolute inset-0 pointer-events-none"
-              style={{
-                background:
-                  "radial-gradient(circle at center, rgba(45,107,255,0.07) 0%, transparent 62%)",
-              }}
-            />
-            <div className="group relative aspect-[4/3]">
-              <Image
-                src="/images/mouse-side.jpg"
-                alt="AXION V3 PRO — Vista lateral"
-                fill
-                className="object-contain transition-transform duration-700 group-hover:scale-[1.03]"
-                style={{
-                  filter: "drop-shadow(0 24px 60px rgba(45,107,255,0.15))",
-                }}
-              />
-            </div>
-          </div>
+        {/* Eyebrow */}
+        <div className="flex items-center gap-4 mb-14 sm:mb-20 lg:mb-24">
+          <div className="w-8 h-px bg-primary/35" />
+          <span className="text-[9px] text-primary/50 tracking-[0.55em] uppercase font-medium">
+            AXION V3 PRO
+          </span>
         </div>
+
+        {/* Headline — 3 lines, each progressively impactful */}
+        <h2
+          className="font-extralight text-foreground leading-[0.88] tracking-tight"
+          style={{ fontSize: "clamp(3.8rem, 13.5vw, 13rem)" }}
+        >
+          Cada
+          <br />
+          movimento
+          <br />
+          <span
+            className="font-light"
+            style={{ color: "#2D6BFF" }}
+          >
+            importa.
+          </span>
+        </h2>
+
+        {/* Bottom rule + tagline */}
+        <div className="mt-16 sm:mt-20 lg:mt-24 flex flex-col sm:flex-row sm:items-end gap-6 sm:gap-16">
+          <div className="w-12 h-px bg-primary/30 flex-shrink-0 mt-1" />
+          <p className="text-base text-muted-foreground/38 font-light leading-relaxed max-w-[22rem]">
+            Projetado para performance.
+            <br />
+            Construído para durar.
+          </p>
+        </div>
+
       </div>
     </section>
   )
